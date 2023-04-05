@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif; 
+}
+
+header{
+    width: 100%;
+    height: 20vh;
+    background: #ffffff
+}
+
+.logo{
+    display:flex;
+    justify-content: left;
+    align-items: start;
+}
+
+.logo img{
+    width: 25%;
+    padding: 20px;
+}
+
+ul{
+    display: flex;
+    justify-content: right;
+}
+
+li{
+
+    margin: 25px;
+    list-style-type: none;
+    color: rgb(0, 136, 7);
+    font-weight: bolder
+
+}
+
+main{
+    width: 100%;
+    height: 65vh;
+    background: url(../img/angel.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.contmain{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contmain p{
+    color: #ffffff;
+    text-align: right;
+}
+
+.span1{
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.span2{
+    font-size: 2em;
+    font-weight: lighter;
+}
+
+.span3{
+    font-size: 5em;
+    font-weight: bolder;
+}
+
+.span4{
+    font-size: 2em;
+    font-weight: lighter;
+}
+
+footer{
+    width: 100%;
+    height: 15vh;
+    text-align: center;
+}
+
+.p1{
+    color: rgb(197, 146, 5);
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.p2{
+    color: rgb(87, 87, 87);
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.p3{
+    color: rgb(179, 179, 179);
+    font-size: 1em;
+    font-weight: lighter;
+}
